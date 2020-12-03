@@ -1,0 +1,12 @@
+kwrhee2020-capstonetest
+https://kwrhee2020-capstonetest.herokuapp.com/ | https://git.heroku.com/kwrhee2020-capstonetest.git
+
+heroku create kwrhee2020-capstonetest
+
+#Using the git url obtained from the last step, in terminal run: 
+git remote add heroku heroku_git_url
+
+heroku addons:create heroku-postgresql:hobby-dev --app kwrhee2020-capstonetest
+
+heroku config --app kwrhee2020-capstonetest
+
